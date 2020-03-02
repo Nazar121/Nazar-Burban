@@ -31,6 +31,8 @@ let array = [
     }
 ];
 
+// new change for milestone_1_2
+
 // milestone_1_2
 // milestone_3
 // milestone_4
