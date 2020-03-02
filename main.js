@@ -21,6 +21,8 @@ let array = [
     }
 ];
 
+// new change for milestone_1_2
+
 // milestone_1_2
 
 function init() {
