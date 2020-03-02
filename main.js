@@ -26,14 +26,17 @@ let array = [
     }
 ];
 
+// milestone_1_2
 // milestone_3
 
 function init() {
 
+    let milestone_1_2 = [];
     let milestone_3 = [];
 
     array.map((item) => {
         if (!item.deleted) {
+            milestone_1_2.push(item);
             milestone_3.push(item);
         }
     });
