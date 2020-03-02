@@ -31,16 +31,19 @@ let array = [
     }
 ];
 
+// milestone_1_2
 // milestone_3
 // milestone_4
 
 function init() {
 
+    let milestone_1_2 = [];
     let milestone_3 = [];
     let milestone_4 = [];
 
     array.map((item) => {
         if (!item.deleted && item.is_visible) {
+            milestone_1_2.push(item);
             milestone_3.push(item);
             milestone_4.push(item);
         }
